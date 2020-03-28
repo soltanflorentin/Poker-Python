@@ -2,7 +2,6 @@ import itertools
 import random
 import unicodedata
 import time
-from playsound import playsound
 
 def bet_choice():
     return 10
@@ -183,7 +182,6 @@ while True:
                     castig = doubble
                     break
                 elif ask == "n" or ask == "N":
-                    playsound("in_casa.mp3")
                     break
                 else:
                     print("Upss, enter y or n, try again!")
